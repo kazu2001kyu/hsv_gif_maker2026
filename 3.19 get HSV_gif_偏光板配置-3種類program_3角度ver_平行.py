@@ -40,19 +40,26 @@ tosRGB = [
 
 #_______________________________________________________________________________________________________________________________________________
 ## dataファイル(光路差100付近:基準)におけるファイルpass/2024.1.16^F 光路差の精密測定(Excel)より算出/**より精確なdata必要
-file_name = "data/data_d_100.csv"
+file_name = "
+hsv_gif_maker2026/data/data_d_100.csv"
 # dataファイル(光源:白色LED光源)におけるファイルpass
-file_name_lED = "data/data_light.csv"
+file_name_lED = "
+hsv_gif_maker2026/data/data_light.csv"
 # dataファイル(光源:白色LED光源※もしかして昔はこっちかも!?)におけるファイルpass
-file_name_lED2 = "data/data_light2.csv"
+file_name_lED2 = "
+hsv_gif_maker2026/data/data_light2.csv"
 # dataファイル(光源:スマートフォン-iphone_13_mini)におけるファイルpass
-file_name_lED3 = "data/data_light_iphone13mini.csv"
+file_name_lED3 = "
+hsv_gif_maker2026/data/data_light_iphone13mini.csv"
 # dataファイル(光源:白色LED光源※surface-pro-7)におけるファイルpass
-file_name_lED4 = "data/data_light_surface.csv"
+file_name_lED4 = "
+hsv_gif_maker2026/data/data_light_surface.csv"
 # dataファイル(補正データ:C2)におけるファイルpass
-file_name_correct = "data/data_correct.csv"
+file_name_correct = "
+hsv_gif_maker2026/data/data_correct.csv"
 # dataファイル(等色関数 row[１]=x(λ),row[2]=y(λ),rao[3]=z(λ))におけるファイルpass
-file_name_color_f = "data/data_e_color.csv"
+file_name_color_f = "
+hsv_gif_maker2026/data/data_e_color.csv"
 #________________________________________________________________________________________________________________________________________________
 
 # 光路差(with open関数による，基準(100nm 付近)の光路差のinstal
