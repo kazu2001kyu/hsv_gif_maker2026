@@ -249,9 +249,9 @@ for count in range(390,395,5):
         start_time = time.time()
         
         for nn in range(2,3): #平行ニコル配置の3通りの表現
-            for zz in range(1,2):
-                for pp in range(1,2):
-                    for xx in range(1,2):
+            for zz in range(1,3):
+                for pp in range(1,3):
+                    for xx in range(1,3):
                         for ε in range(0,181,step):
                             for β in range(0, 181, step):##角度2つ目(β度)
                                 for w in range(0, 181, step):##角度1つ目(w度)
@@ -316,9 +316,9 @@ for count in range(390,395,5):
             
         # 三刺激値XYZを全座標についてR"G"B"値へ変換
         for nn in range(2,3):#平行ニコル
-            for zz in range(1,2):
-                for pp in range(1,2):
-                    for xx in range(1,2):
+            for zz in range(1,3):
+                for pp in range(1,3):
+                    for xx in range(1,3):
                         for ε in range(0,181,step):
                             for β in range(0, 181, step):##角度2つ目(β度)
                                 for w in range(0, 181, step):##角度1つ目(w度)
@@ -349,9 +349,9 @@ for count in range(390,395,5):
         
         # RGB値をR'G'B'値から算出する．Decimalでstr型で四捨五入(整数)として，.to_integral_valueで数の型にしている
         for nn in range(2,3):
-            for zz in range(1,2):
-                for pp in range(1,2):
-                    for xx in range(1,2):
+            for zz in range(1,3):
+                for pp in range(1,3):
+                    for xx in range(1,3):
                         for ε in range(0,181,step):##角度3つ目
                             for β in range(0, 181, step):##角度2つ目(β度)
                                 for w in range(0, 181, step):##角度1つ目(w度)
@@ -484,9 +484,9 @@ for count in range(390,395,5):
         #Y = []
         
         for nn in range(2,3):#(平行ニコルのみ抽出)
-            for zz in range(1,2):
-                for pp in range(1,2):
-                    for xx in range(1,2):
+            for zz in range(1,3):
+                for pp in range(1,3):
+                    for xx in range(1,3):
                         X = []
                         Y = []
                         for ε in range(0,181,step):##角度3つ目(ε度)
